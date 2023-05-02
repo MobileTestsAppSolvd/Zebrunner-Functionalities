@@ -24,4 +24,10 @@ public class HelloWorld implements IAbstractTest {
         LOGGER.info("Hello World!");
     }
 
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void helloWorld2() {
+        LOGGER.info("Hello World!");
+    }
+
 }
